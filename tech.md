@@ -20,15 +20,15 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 - Spring Boot 2.0
 - Spring Boot 2.1
 - Thread, Thread Pool, Multi Thread
-- Concurrency, Synchronized
-- Asynchronous, Future, CompletableFuture, ListenableFuture
+- Concurrency（并发）, Synchronized
+- Asynchronous（异步）, Future, CompletableFuture, ListenableFuture
 - IO, NIO
 - @Inject, @Resource, @Autowired
-- Memory
-- 메모리 누수 원인과 처방 - http://egloos.zum.com/myepistle/v/505177
+- Memory（内存）
+- Memory Leak Troubleshooting - http://egloos.zum.com/myepistle/v/505177
 - Memory - bottleneck
 - JVM
-- Garbage Collection
+- Garbage Collection（垃圾收集器）
 - JVM Optimization
 - JVM Tuning
 - Internet
