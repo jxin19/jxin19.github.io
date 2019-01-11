@@ -127,7 +127,7 @@ description: Resume, CV
  - 多达7,000个并发用户可处理诸如服务器性能，异步（Async）处理，内存负载和数据库瓶颈等问题。
  - 实施该解决方案的公司减少了非法软件的使用。 
  - 降低使用昂贵许可证的成本。
- - 材料: http://gytni.com/new_gytni/common/files/pdf/iMON%20TOP%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf
+ - [材料](http://gytni.com/new_gytni/common/files/pdf/iMON%20TOP%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
 ### iMON OA
  - 项目时间: 2011.09 ~ 2012.08
@@ -138,7 +138,7 @@ description: Resume, CV
  - 被有型财产为条形码管理，按期间报告，每个月财产置换需求预测功能开发。 
  - 上班当时三星Display和首尔市读书馆提供了节省TCO。 
  - 减少了公司的有型财产管理人员。
- - 材料: http://gytni.com/new_gytni/common/files/pdf/iMON%20OA%20%EC%9E%A5%EB%B9%84%20%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf
+ - [材料](http://gytni.com/new_gytni/common/files/pdf/iMON%20OA%20%EC%9E%A5%EB%B9%84%20%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
 ## 韩国陆军53师(当兵)
 
