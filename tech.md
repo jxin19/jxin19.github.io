@@ -36,9 +36,9 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 - HTTP2
 - RESTful, Stateless, HATEOAS
 - ORM, JPA, Hibernate
-- Spring Security - 버전별 특성
-- Spring Security - 실행순서
-- Spring Security - 설정
+- Spring Security - each version features
+- Spring Security - filter chain order
+- Spring Security - configuration
 - Spring Security - token endpoint
 - IoC
 - Spring AOP
