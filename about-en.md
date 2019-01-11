@@ -1,4 +1,4 @@
-[中文](https://github.com/jxin19/resume-cv/blob/master/README.md) | English
+[中文](http://minjoon.com/about) | English
 
 # Contact
 
