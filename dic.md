@@ -11,4 +11,5 @@ description: English-Korean-Chinese Technology Dictionary
 
 | English | 한국어 | 中文 |
 | ----------- | ----------- | -----------|
-| Header      | Title       |            |
+| Asynchronous | 비동기 | 异步 |
+| Concurrency | 동시성 | 并发 |
