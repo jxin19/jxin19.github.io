@@ -123,7 +123,8 @@ Position: Assistant Manager
  - Solved leaking memory and DB bottleneck issues.
  - Companies implementing this solution have reduced the use of illegal software.
  - Reduce the cost of using expensive licenses.
- - Reference Link: http://gytni.com/new_gytni/common/files/pdf/iMON%20TOP%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf
+ - [Reference Link](http://gytni.com/new_gytni/common/files/pdf/iMON%20TOP%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
+
 
 ### iMON OA
  - Period: 2011.09 ~ 2012.08
@@ -134,7 +135,7 @@ Position: Assistant Manager
  - Developed asset management bar code, report tool by the period and asset replacement demand forecast function.
  - Samsung Display and Seoul City Library provided savings in TCO.
  - Reduced the company's asset management staffs.
- - Reference Link: http://gytni.com/new_gytni/common/files/pdf/iMON%20OA%20%EC%9E%A5%EB%B9%84%20%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf
+ - [Reference Link](http://gytni.com/new_gytni/common/files/pdf/iMON%20OA%20%EC%9E%A5%EB%B9%84%20%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
 ## The 53 Infantry Division of Korea(Military Service)
 
