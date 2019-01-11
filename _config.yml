@@ -15,6 +15,7 @@ destination: ./_site
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
+highlighter: rouge
 
 # Default values
 defaults:
