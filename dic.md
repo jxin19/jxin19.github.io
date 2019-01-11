@@ -1,6 +1,6 @@
 ---
 layout: page
-title: English-Korean-Chinese IT Dictionary
+title: Dic
 description: English-Korean-Chinese IT Dictionary
 ---
 
