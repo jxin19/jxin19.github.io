@@ -4,3 +4,61 @@ title: Tech
 description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 ---
 
+- JAVA 6
+- JAVA 7
+- JAVA 8
+- JAVA 9
+- JAVA 10
+- JAVA 11
+- Spring
+- IoC
+- Spring 3.1
+- Spring 4.0
+- Spring 5.0
+- Spring Boot
+- Spring Boot 1.5
+- Spring Boot 2.0
+- Spring Boot 2.1
+- Thread, Thread Pool, Multi Thread
+- Concurrency, Synchronized
+- Asynchronous, Future, CompletableFuture, ListenableFuture
+- IO, NIO
+- @Inject, @Resource, @Autowired
+- Memory
+- 메모리 누수 원인과 처방 - http://egloos.zum.com/myepistle/v/505177
+- Memory - bottleneck
+- JVM
+- Garbage Collection
+- JVM Optimization
+- JVM Tuning
+- Internet
+- HTTP
+- HTTP2
+- RESTful, Stateless, HATEOAS
+- ORM, JPA, Hibernate
+- Spring Security - 버전별 특성
+- Spring Security - 실행순서
+- Spring Security - 설정
+- Spring Security - token endpoint
+- IoC
+- Spring AOP
+- Spring Cache
+- MSA
+- Spring Cloud
+- Spring WebFlux
+- ES 2015
+- ES 2016
+- ES 2017
+- ES 2018
+- Webpack
+- npm
+- vue.js
+- Service Worker
+- Elastic
+- Kibarna
+- Logstash
+- AWS
+- Terraform
+- Infrastructure Architecture
+- Issue SSL with ACM
+- DDOS Protection by AWS
