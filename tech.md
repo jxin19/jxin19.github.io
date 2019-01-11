@@ -5,7 +5,6 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 ---
 
 ## Java
-- Java 6
 - Java 7
 - Java 8
 - Java 9
