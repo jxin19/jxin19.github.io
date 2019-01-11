@@ -4,7 +4,7 @@ title: About
 description: Resume, CV
 ---
 
-中文 | [English](https://github.com/jxin19/resume-cv/blob/master/ENGLISH.md)
+中文 | [English](http://minjoon.com/about-en)
 
 # 联系方式
 
