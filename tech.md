@@ -5,7 +5,7 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 ---
 
 ## Java
-- Java 7
+- [Java 7](http://minjoon.com/java7)
 - Java 8
 - Java 9
 - Java 10

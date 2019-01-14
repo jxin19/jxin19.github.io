@@ -14,7 +14,12 @@ body
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
-p, ul, ol {
+p {
+	font-size: 1em; /* 16px */
+	line-height: 1.8em;
+}
+
+ul, ol {
 	font-size: 1em; /* 16px */
 	line-height: 1.8em;
 	margin-bottom: 1.5em; /* 24px/16px */
@@ -71,7 +76,7 @@ h1 {
 h2 {
 	font-size: 2em; /* 36px/18px */
 	line-height: 1.8em;
-	padding: 0.66667em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
+	padding: 1.7em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
 h3, h4, h5, h6 {
