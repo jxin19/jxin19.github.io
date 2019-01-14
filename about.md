@@ -4,7 +4,7 @@ title: About
 description: Resume, CV
 ---
 
-中文 | [English](http://minjoon.com/about-en)
+中文 &nbsp;&nbsp; [English](http://minjoon.com/about-en)
 
 # 联系方式
 
@@ -18,8 +18,8 @@ description: Resume, CV
  - 辛旼准 / 男 / 1986
  - 国籍: 韩国
  - 现居: 韩国 首尔市
- - 计算机工程(本科) | 学分积累制（韩国），2010.08～2014.02
- - 移动互联网(大专) | 斗源工科大學校（韩国），2005.03～2010.02
+ - 计算机工程(本科)， 学分积累制（韩国），2010.08～2014.02
+ - 移动互联网(大专)， 斗源工科大學校（韩国），2005.03～2010.02
  - 工作年限: 8年
  - 言语: 韩语（母语），英文（读写精通），中文（三级乙等）
  - 技术博客: https://gitlab.com/jxin95/miette-interview

@@ -1,4 +1,4 @@
-[中文](http://minjoon.com/about) | English
+[中文](http://minjoon.com/about) &nbsp;&nbsp; English
 
 # Contact
 
@@ -12,8 +12,8 @@
  - Shin Minjoon / Male / 1986
  - Nationality: South Korea
  - Hometown: Seoul, South Korea
- - Computer Science(Bachelor) | Academic Credit Bank System(Korea), 2010.08～2014.02
- - Mobile Internet(Diploma) | Doowon Technical University College(Korea), 2005.03～2010.02
+ - Computer Science(Bachelor), Academic Credit Bank System(Korea), 2010.08～2014.02
+ - Mobile Internet(Diploma), Doowon Technical University College(Korea), 2005.03～2010.02
  - Years of experience: 8 years
  - Languages: Korean(Native), English(Mid-level), Mandarine Chinese(Proficient)
  - Open source: https://gitlab.com/jxin95/miette-interview (Need to permission)
