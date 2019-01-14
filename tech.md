@@ -6,12 +6,12 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 
 ## Java
 - [Java 7](http://minjoon.com/java7)
-- Java 8
+- [Java 8](http://minjoon.com/java8)
 - Java 9
 - Java 10
 - Java 11
-- Thread, Thread Pool, Multi Thread
-- Concurrency（并发）, Synchronized
+- Thread, Thread Pool, Multi Thread, Fork/Join
+- Concurrency（并发）, Synchronized（同步）
 - Asynchronous（异步）, Future, CompletableFuture, ListenableFuture
 
 ## Spring
