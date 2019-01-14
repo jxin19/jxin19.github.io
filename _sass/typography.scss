@@ -34,6 +34,10 @@ h1 {
 h2 {
 	font-size: 1.5em; /* 24px/16px */
 	line-height: 1.8em;
+	padding: 0.66667em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
+}
+
+.content h2 {
 	padding: 1em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
 }
 
@@ -81,7 +85,11 @@ h1 {
 h2 {
 	font-size: 2em; /* 36px/18px */
 	line-height: 1.8em;
-	padding: 1.7em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
+	padding: 0.5em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
+}
+
+.content h2 {
+	padding: 1.7em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
 }
 
 h3, h4, h5, h6 {
