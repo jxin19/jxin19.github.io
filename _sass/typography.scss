@@ -61,7 +61,12 @@ blockquote {
 
 @media (min-width: 940px) { //Breakpoint set to 940px
 
-p, ul, ol {
+p {
+	font-size: 1em; /* 18px */
+	line-height: 1.8em;
+}
+
+ul, ol {
 	font-size: 1em; /* 18px */
 	line-height: 1.8em;
 	margin-bottom: 1.3334em; /* 24px/18px */
