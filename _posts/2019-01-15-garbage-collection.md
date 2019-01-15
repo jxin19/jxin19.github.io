@@ -20,6 +20,8 @@ for (String name : nameList) {
 반복할 때마다 만들어진 String 객체는 다음 반복구간에선 사용하지 않는다. 이렇게 참조되지 않는 객체를 Garbage(쓰레기)라 부른다. 
 객체를 생성할 때마다 메모리를 사용하게 되고, 반복이 계속될 수록 메모리 소모가 커지게 된다.
 
+<br/>
+
 메모리 관리 개선을 위해 JVM에는 자동 메모리 관리를 수행하는 Garbage Collector가 함께 제공된다.<br/>
 (즉, JVM은 메모리를 정리해야 할 때마다 자동으로 메모리를 회수한다.)
 
@@ -28,6 +30,8 @@ for (String name : nameList) {
 
 Garbage Collector를 오해 하는 이유중 하나는 죽은(더이상 참조하지 않는) 객체를 제거하는 것이다.<br/>
 Garbage Collector는 사용중인 객체를 지속적으로 추적하고 다른 것들에게 Garbage라는 표식을 한다.
+
+<br/>
 
 이론적으로 Java Garbage Collector는 매우 단순한 방식으로 동작한다.
 
@@ -55,9 +59,19 @@ Garbage Collector에 대한 다른 오해는 JVM이 한가지 Garbage Collector�
 
 #### Serial GC
 
+가장 심플하고 유용한 방식이다. 싱글 스레드 환경을 위해 설계되었다.<br/>
 
+`하지만, 사용하지 말 것`
+
+이슈 중 하나는 Serial GC는 모든 스레드를 멈추게 하는 능력이 있다. 이는 어플리케이션 성능에 심각한 문제를 야기시킨다.
+
+```bash
+-XX:+UseSerialGC
+``` 
 
 #### Parallel GC
+
+
 
 #### CMS GC
 
