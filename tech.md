@@ -7,8 +7,9 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 ## Java
 - [Java 7](http://minjoon.com/java7)
 - [Java 8](http://minjoon.com/java8)
-- Java 9
-- Java 10
+  - Stream
+- [Java 9](http://minjoon.com/java9)
+- [Java 10](http://minjoon.com/java10)
 - Java 11
 - Thread, Thread Pool, Multi Thread, Fork/Join
 - Concurrency（并发）, Synchronized（同步）
@@ -46,7 +47,7 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 - Memory Leak Troubleshooting - http://egloos.zum.com/myepistle/v/505177
 - Memory - bottleneck
 - JVM
-- Garbage Collection（垃圾收集器）
+- [Garbage Collection（垃圾收集器](http://minjoon.com/garbage-collection)
 - JVM Optimization
 - JVM Tuning
 
