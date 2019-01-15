@@ -1,7 +1,7 @@
 ---
-title: Java 9
-description: Java 9 features
-header: Java 9
+title: Garbage Collection(가비지 컬렉션)
+description: Garbage Collection
+header: Garbage Collection(가비지 컬렉션)
 ---
 
 Garbage Collector가 무엇이며, 어떻게 작동하는지 알아본다.

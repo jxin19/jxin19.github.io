@@ -47,7 +47,7 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 - Memory Leak Troubleshooting - http://egloos.zum.com/myepistle/v/505177
 - Memory - bottleneck
 - JVM
-- [Garbage Collection（垃圾收集器](http://minjoon.com/garbage-collection)
+- [Garbage Collection（垃圾收集器）](http://minjoon.com/garbage-collection)
 - JVM Optimization
 - JVM Tuning
 
