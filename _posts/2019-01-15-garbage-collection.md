@@ -80,6 +80,9 @@ Java 7, Java 8에서는 기본 GC이다. 멀티 스레드로 GC 프로세스에 
 멀티 스레드로 GC를 더욱 빠르게 만들 수 있다. 하지만, GC 작업을 할 때마다 모든 애플리케이션 스레드가 중지된다.<br/>
 Parallel GC는 Throughput collector로도 알려져 있다.<br/>
 
+![Parallel GC](/img/garbage-collection/parallel-gc.jpg)
+
+
 ```bash
 -XX:+UseParallelGC
 ``` 
@@ -96,3 +99,5 @@ Concurrent-Mark-Sweep GC도 가능한 GC 프로세스를 위해 멀티 스레드
 
 > 참고<br/>
 > https://www.javadevjournal.com/java/java-garbage-collector/
+> http://www.informit.com/articles/article.aspx?p=2496621&seqNum=3
+> https://www.techpaste.com/2012/02/java-garbage-collectors-gc/
