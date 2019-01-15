@@ -41,6 +41,8 @@ Garbage Collector는 사용중인 객체를 지속적으로 추적하고 다른 
 어떤 객체가 사용중이고 쓰레기인지 확인하기 위해 JVM은 특수 객체인 GC Root를 사용한다.<br/>
 프로그램이 Root 객체에 도달할 수 있다면 JVM은 객체를 살아있는 것으로 취급한다.
 
+<br/>
+
 #### Mark and Sweep Algorithm
 
 JVM은 Mark and Sweep Algorithm을 사용하여 사용 중인 개체와 더 이상 사용되지 않는 개체를 확인/표시한다. 이 알고리즘은 2단계로 작동한다.
@@ -55,15 +57,18 @@ JVM은 Mark and Sweep Algorithm을 사용하여 사용 중인 개체와 더 이�
 ## Java Garbage Collector 유형
 
 Garbage Collector에 대한 다른 오해는 JVM이 한가지 Garbage Collector만 가지고 있다는 것이다.<br/>
-사실은 5개 정도의 Garbage Collector가 있다.(JDK7 기준)
+사실은 5개 정도의 Garbage Collector가 있다.(JDK7 기준)<br/>
 
 #### Serial GC
 
 가장 심플하고 유용한 방식이다. 싱글 스레드 환경을 위해 설계되었다.<br/>
 
-`하지만, 사용하지 말 것`
+**하지만, 사용하지 말 것!**
 
 이슈 중 하나는 Serial GC는 모든 스레드를 멈추게 하는 능력이 있다. 이는 어플리케이션 성능에 심각한 문제를 야기시킨다.
+
+![Serial GC](/img/garbage-collection/serial-gc.jpg)
+
 
 ```bash
 -XX:+UseSerialGC
@@ -71,9 +76,18 @@ Garbage Collector에 대한 다른 오해는 JVM이 한가지 Garbage Collector�
 
 #### Parallel GC
 
+Java 7, Java 8에서는 기본 GC이다. 멀티 스레드로 GC 프로세스에 대한 힙 탐색을 한다.<br/>
+멀티 스레드로 GC를 더욱 빠르게 만들 수 있다. 하지만, GC 작업을 할 때마다 모든 애플리케이션 스레드가 중지된다.<br/>
+Parallel GC는 Throughput collector로도 알려져 있다.<br/>
 
+```bash
+-XX:+UseParallelGC
+``` 
 
 #### CMS GC
+
+Concurrent-Mark-Sweep GC도 가능한 GC 프로세스를 위해 멀티 스레드를 사용하여 헤드를 스캔한다.
+
 
 #### G1 GC
 
