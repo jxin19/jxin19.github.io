@@ -69,7 +69,6 @@ Garbage Collector에 대한 다른 오해는 JVM이 한가지 Garbage Collector�
 
 ![Serial GC](/img/garbage-collection/serial-gc.jpg)
 
-
 ```bash
 -XX:+UseSerialGC
 ``` 
@@ -80,17 +79,40 @@ Java 7, Java 8에서는 기본 GC이다. 멀티 스레드로 GC 프로세스에 
 멀티 스레드로 GC를 더욱 빠르게 만들 수 있다. 하지만, GC 작업을 할 때마다 모든 애플리케이션 스레드가 중지된다.<br/>
 Parallel GC는 Throughput collector로도 알려져 있다.<br/>
 
-![Parallel GC](/img/garbage-collection/parallel-gc.jpg)
-
-
 ```bash
 -XX:+UseParallelGC
 ``` 
 
 #### CMS GC
 
-Concurrent-Mark-Sweep GC도 가능한 GC 프로세스를 위해 멀티 스레드를 사용하여 헤드를 스캔한다.
+초기 Initial Mark 단계에서는 클래스 로더에서 가장 가까운 객체 중 살아 있는 객체만 찾는 것으로 끝낸다. 
+따라서, 멈추는 시간은 매우 짧다. 그리고 Concurrent Mark 단계에서는 방금 살아있다고 확인한 객체에서 참조하고 있는 객체들을 따라가면서 확인한다. 
+이 단계의 특징은 다른 스레드가 실행 중인 상태에서 동시에 진행된다는 것이다.
 
+<br/>
+
+그 다음 Remark 단계에서는 Concurrent Mark 단계에서 새로 추가되거나 참조가 끊긴 객체를 확인한다. 
+마지막으로 Concurrent Sweep 단계에서는 쓰레기를 정리하는 작업을 실행한다. 
+이 작업도 다른 스레드가 실행되고 있는 상황에서 진행한다.
+
+<br/>
+
+이러한 단계로 진행되는 GC 방식이기 때문에 stop-the-world 시간이 매우 짧다. 
+모든 애플리케이션의 응답 속도가 매우 중요할 때 CMS GC를 사용하며, Low Latency GC라고도 부른다.  
+
+<br/>
+
+하지만 아래와 같은 단점이 있다.
+
+1. 동시성 모드로 동작하기 때문에 다른 방식에 비해 더 많은 메모리와 CPU 점유를 한다.
+2. 실행 중인 어플리케이션이 GC 실행 중 힙 상태를 일부 변경한 경우, 업데이트된 참조 정보가 있는지 확인하기 위해 일부 최종단계를 다시 실행한다.
+3.  One of the main disadvantages of the CMS GC is encountering [Promotion Failure](https://blogs.oracle.com/poonam/troubleshooting-long-gc-pauses) (Long Pauses) which happens due to the race conditions.
+
+```bash
+-XX:+UseConcMarkSweepGC
+``` 
+
+![Comparison](/img/garbage-collection/compare-gc.jpg)
 
 #### G1 GC
 
@@ -100,4 +122,4 @@ Concurrent-Mark-Sweep GC도 가능한 GC 프로세스를 위해 멀티 스레드
 > 참고<br/>
 > https://www.javadevjournal.com/java/java-garbage-collector/
 > http://www.informit.com/articles/article.aspx?p=2496621&seqNum=3
-> https://www.techpaste.com/2012/02/java-garbage-collectors-gc/
+> https://d2.naver.com/helloworld/1329
