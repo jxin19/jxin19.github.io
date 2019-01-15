@@ -116,10 +116,47 @@ Parallel GC는 Throughput collector로도 알려져 있다.<br/>
 
 #### G1 GC
 
+JDK 7 에서 소개된 새로운 GC가 바로 G1(Garbage First)이다.<br/>
+G1 와 다른 방식의 근본적인 차이점 중 하나는 힙을 여러 영역으로 분할하는 것이다.
+JVM은 일반적으로 크기가 1에서 32Mb까지 다양한 2천 여 영역을 대상으로 한다.<br/>
+
+G1는 보통 여러 개의 배경 스레드를 사용하여 영역을 스캔하여 대부분이 쓰레기 객체로 이루어진 영역을 선택적으로 골라낸다.
+
+<br/>
+
+다른 방식에 비해 좋은 점은 아래와 같다.
+
+1. 대부분이 쓰레기 객체로 이루어진 영역을 타깃팅하는 것이 다른 방식에 비해 빠르다.
+2. 다른 방식에 비해 작게 힙을 사용할 수 있다.
+3. 힙을 여러 영역으로 쪼개서 "stop the world"를 피할 수 있다.
+4. 대규모 힙 크기와 머신당 여러 JVM인 아키텍쳐 상에서 성능을 향상시킬 수 있다.
+
+
+```bash
+-XX:+UseG1GC
+```  
+
+![G1](/img/garbage-collection/g1.png)
+
+
 #### G1 GC and Java 8
 
+Java 8 에 추가된 기능([String Deduplication](http://openjdk.java.net/jeps/192))은 이렇다.<br/>
+문자열은 큰 사이즈의 힙을 점유한다. 새로운 기능은 힙에 중복된 문자열이 들어올 경우 자동으로 동일한 내부 문자열을 제거한다.
+
+```bash
+-XX:+UseStringDeduplication
+```
+
+자동으로 문자열의 중복 인스턴스를 제거 및 방지하여 힙에 존재하는 데이터를 줄이려고 노력한다.
+
+메모리 관리에서 또 다른 중요한 변화는 PermGen 제거다. JVM이 메모리 관리를 하고, OutOfMemoryError를 처리하기 위함이다.<br/>
+[Remove the Permanent Generation](http://openjdk.java.net/jeps/122)
+
+<br/>
 
 > 참고<br/>
 > https://www.javadevjournal.com/java/java-garbage-collector/
 > http://www.informit.com/articles/article.aspx?p=2496621&seqNum=3
 > https://d2.naver.com/helloworld/1329
+> https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html
