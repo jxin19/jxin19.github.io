@@ -7,8 +7,10 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 ## Java
 - [Java 7](http://minjoon.com/java7)
 - [Java 8](http://minjoon.com/java8)
-  - Stream
+  - [Stream](http://minjoon.com/streams-in-java)
+  - [Stream - Advanced](http://minjoon.com/advanced-streams-in-java)
 - [Java 9](http://minjoon.com/java9)
+  - [Modular System - Jigsaw Project](http://minjoon.com/jigsaw-in-java)
 - [Java 10](http://minjoon.com/java10)
 - Java 11
 - Thread, Thread Pool, Multi Thread, Fork/Join
