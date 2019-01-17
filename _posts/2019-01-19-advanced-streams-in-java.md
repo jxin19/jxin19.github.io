@@ -1,6 +1,6 @@
 ---
-title: Advanced Streams in Java
+title: Stream - Advanced
 description: Advanced Streams in Java
-header: Advanced Streams in Java
+header: Stream - Advanced
 ---
 
