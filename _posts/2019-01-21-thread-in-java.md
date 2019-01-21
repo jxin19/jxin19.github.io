@@ -1,7 +1,7 @@
 ---
-title: Thread
+title: Thread, Thread Pool, Multi Thread
 description: Thread
-header: Thread
+header: Thread, Thread Pool, Multi Thread
 ---
 
 ## Process
@@ -66,9 +66,6 @@ public class HeavyWorkRunnable implements Runnable {
 ```
 
 #### Thread 클래스 확장
-
-We can extend java.lang.Thread class to create our own java thread class and override run() method. 
-Then we can create it’s object and call start() method to execute our custom java thread class run method.
 
 java.lang.Thread클래스를 확장하여 Thread 클래스와 override run() 메소드를 만든다.
 그리고 이 오브젝트 만들고 start() 메소드를 커스텀 Thread 클래스의 run() 메소드 호출한다.
@@ -141,13 +138,6 @@ Doing heavy processing - END t1
 
 
 ## Runnable vs Thread
-
-If your class provides more functionality rather than just running as Thread, 
-you should implement Runnable interface to provide a way to run it as Thread. 
-If your class only goal is to run as Thread, you can extend Thread class.
-
-Implementing Runnable is preferred because java supports implementing multiple interfaces. 
-If you extend Thread class, you can’t extend any other classes.
 
 Runnable은 다중 상속이 가능하지만, Thread는 다중상속을 받을 수 없다.
 이런 문제 때문에 Runnable을 더 많이 사용한다.
