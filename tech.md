@@ -13,7 +13,9 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
   - [Modular System - Jigsaw Project](http://minjoon.com/jigsaw-in-java)
 - [Java 10](http://minjoon.com/java10)
 - Java 11
-- [Thread, Thread Pool, Multi Thread](http://minjoon.com/thread-in-java)
+- [Thread](http://minjoon.com/thread-in-java)
+- Thread Pool
+- Multi Thread
 - Fork/Join
 - Concurrency（并发）, Synchronized（同步）
 - Asynchronous（异步）, Future, CompletableFuture, ListenableFuture

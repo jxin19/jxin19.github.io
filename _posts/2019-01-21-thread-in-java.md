@@ -1,7 +1,7 @@
 ---
-title: Thread, Thread Pool, Multi Thread
+title: Thread
 description: Thread
-header: Thread, Thread Pool, Multi Thread
+header: Thread
 ---
 
 ## Process
@@ -28,6 +28,8 @@ Java Thread는 백그라운드에서 메모리 관리, 시스템 관리, 신호 
  - 상위 프로세스 데이터와 코드를 공유한다.
  - Thread 간 Context 전환은 보통 프로세스보다 적은 비용이 든다.
  - Thread 간 통신은 프로세스 통신보다 비교적 쉽다.
+
+<br/>
  
 Java는 2가지 방법으로 Thread를 프로그래밍할 수 있다.
 
@@ -67,8 +69,8 @@ public class HeavyWorkRunnable implements Runnable {
 
 #### Thread 클래스 확장
 
-java.lang.Thread클래스를 확장하여 Thread 클래스와 override run() 메소드를 만든다.
-그리고 이 오브젝트 만들고 start() 메소드를 커스텀 Thread 클래스의 run() 메소드 호출한다.
+java.lang.Thread클래스를 확장하여 Thread 클래스와 `override run()` 메소드를 만든다.
+그리고 이 오브젝트 만들고 `start()` 메소드를 커스텀 Thread 클래스의 `run()` 메소드 호출한다.
 
 ```java
 public class MyThread extends Thread {
@@ -141,10 +143,6 @@ Doing heavy processing - END t1
 
 Runnable은 다중 상속이 가능하지만, Thread는 다중상속을 받을 수 없다.
 이런 문제 때문에 Runnable을 더 많이 사용한다.
-
-
-## Thread Pool
-
 
 
 > 참고<br/>
