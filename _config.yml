@@ -25,6 +25,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      sitemap: true
 
 # Plugins
 gems:
