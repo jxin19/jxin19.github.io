@@ -14,8 +14,8 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
 - [Java 10](http://minjoon.com/java10)
 - Java 11
 - [Thread](http://minjoon.com/thread-in-java)
-- Thread Pool
-- Multi Thread
+- [Thread Pool](http://minjoon.com/thread-pool-in-java)
+- [Multi Thread](http://minjoon.com/multi-thread-in-java)
 - Fork/Join
 - Concurrency（并发）, Synchronized（同步）
 - Asynchronous（异步）, Future, CompletableFuture, ListenableFuture
