@@ -39,7 +39,7 @@ Java는 2가지 방법으로 Thread를 프로그래밍할 수 있다.
 
 ## Thread 예제
 
-#### implementing Runnable 인터페이스
+#### Runnable 인터페이스 구현
 
 클래스 실행을 가능하게 하기 위해 java.lang.Runnable 인터페이스를 구현할 수 있고, `public void run()` 메소드 구현을 제공한다.
 Runnable 클래스의 객체를 전달하여 Thread를 생성한다. 그때 다른 Thread에서 `run()` 메소드를 실행하려면 `start()` 메소드를 호출해야 한다. 
