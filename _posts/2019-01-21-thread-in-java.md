@@ -115,7 +115,6 @@ public class ThreadRunExample {
         t3.start();
         t4.start();
         System.out.println("MyThreads has been started");
-        
     }
 }
 ```
@@ -133,7 +132,6 @@ Doing heavy processing - END t2
 MyThread - END Thread-1
 MyThread - END Thread-0
 Doing heavy processing - END t1
-
 ```
 
 위 코드를 여러번 실행하면 실행순서를 보장할 수 없다는 것을 알 수 있다.
