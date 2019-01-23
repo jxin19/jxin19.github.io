@@ -136,8 +136,7 @@ G1는 보통 여러 개의 배경 스레드를 사용하여 영역을 스캔하�
 -XX:+UseG1GC
 ```  
 
-![G1](/img/garbage-collection/g1.png)
-
+``
 
 #### G1 GC and Java 8
 
