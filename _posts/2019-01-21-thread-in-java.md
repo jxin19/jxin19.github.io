@@ -21,6 +21,8 @@ Java Thread는 백그라운드에서 메모리 관리, 시스템 관리, 신호 
 한 컴퓨터 단일 핵심 프로세스는 한번에 단 하나의 Thread만 실행시킬 수 있다. 
 그리고 시간을 분할하여 프로세스 시간간 Thread를 공유한다.
 
+![Life of Thread](/img/thread/lifecycle.png)
+
 
 ## Thread의 혜택 
 
