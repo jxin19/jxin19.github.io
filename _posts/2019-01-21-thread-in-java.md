@@ -102,7 +102,7 @@ public class MyThread extends Thread {
 ```java
 public class ThreadRunExample {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Thread t1 = new Thread(new HeavyWorkRunnable(), "t1");
         Thread t2 = new Thread(new HeavyWorkRunnable(), "t2");
         System.out.println("Starting Runnable threads");
