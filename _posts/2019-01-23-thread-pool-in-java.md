@@ -21,7 +21,7 @@ public class WorkerThread implements Runnable {
   
     private String command;
     
-    public WorkerThread(String s){
+    public WorkerThread(String s) {
         this.command=s;
     }
 
@@ -129,8 +129,7 @@ public class RejectedExecutionHandlerImpl implements RejectedExecutionHandler {
 ```java
 import java.util.concurrent.ThreadPoolExecutor;
 
-public class MyMonitorThread implements Runnable
-{
+public class MyMonitorThread implements Runnable {
     private ThreadPoolExecutor executor;
     private int seconds;
     private boolean run=true;
@@ -176,7 +175,7 @@ import java.util.concurrent.TimeUnit;
 
 public class WorkerPool {
 
-    public static void main(String args[]) throws InterruptedException{
+    public static void main(String args[]) throws InterruptedException {
         //RejectedExecutionHandler implementation
         RejectedExecutionHandlerImpl rejectionHandler = new RejectedExecutionHandlerImpl();
         //Get the ThreadFactory implementation to use
@@ -189,7 +188,7 @@ public class WorkerPool {
         monitorThread.start();
         
         //submit work to the thread pool
-        for(int i=0; i<10; i++){
+        for (int i=0; i<10; i++) {
             executorPool.execute(new WorkerThread("cmd"+i));
         }
         
