@@ -1,7 +1,7 @@
 # Site settings
 title: MINJOON.COM | PARADISE IS WHERE I AM
 description: "for study JAVA, JVM, ELK, AWS."
-url: "http://jxin19.github.io"
+url: "http://minjoon.com"
 author:
   name: "Minjoon Matthew Shin"
   email: "shinminjoon@163.com"
@@ -31,6 +31,7 @@ defaults:
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Custom variables
 version: "1.0.0"
