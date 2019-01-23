@@ -17,7 +17,7 @@ description: English-Korean-Chinese IT Dictionary
 
 ## Java
 
-| > | English | 한국어 | 中文 |
+| | English | 한국어 | 中文 |
 | --- | --- | --- | --- |
 | | Asynchronous | 비동기 | 异步  |
 | | Concurrency | 동시성 | 并发 |
