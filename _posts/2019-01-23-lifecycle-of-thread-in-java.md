@@ -7,6 +7,8 @@ header: Lifecycle of Thread
 아래 다이어그램으로 Thread 생명주기(Lifecycle)의 각 상태를 볼 수 있다.
 Java에서 Thread를 만들고 시작할 수 있지만, 어떻게 Thread 상태가 Runnable에서 Running to Blocked로 변경되는지는 Thread Scheduler의 OS 구현에 따라 달라지며 이에 대한 제어권은 없다.
 
+<br/>
+
 ![Lifecycle](/img/thread/lifecycle.png)
 
 ## New
