@@ -23,6 +23,6 @@ description: English-Korean-Chinese IT Dictionary
 | | Concurrency | 동시성 | 并发 |
 | | Diamond | 다이아몬드 | 钻石 |
 | | Stream | 스트림 | 流 |
-| Thread | Thread | 스레드 | 线程 |
+Thread | Thread | 스레드 | 线程 |
 |  | Multi Thread | 다중(멀티) 스레드 | 多线程 |
 |  | Pipeline | 파이프라인 | 流水线 |
