@@ -2,6 +2,7 @@
 title: Thread Pool
 description: Thread Pool
 header: Thread Pool
+tags: [Java, Thread, Thread Pool]
 ---
 
 ## 정의

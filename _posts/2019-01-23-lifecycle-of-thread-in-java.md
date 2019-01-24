@@ -2,6 +2,7 @@
 title: Lifecycle of Thread
 description: Lifecycle of Thread
 header: Lifecycle of Thread
+tags: [Java, Thread]
 ---
 
 아래 다이어그램으로 Thread 생명주기(Lifecycle)의 각 상태를 볼 수 있다.

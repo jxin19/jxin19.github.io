@@ -2,6 +2,7 @@
 title: Streams - Advanced
 description: Streams - Advanced
 header: Streams - Advanced
+tags: [Java, Stream]
 ---
 
 ## Stream Creation

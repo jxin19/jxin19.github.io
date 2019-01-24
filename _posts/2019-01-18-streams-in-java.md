@@ -2,6 +2,7 @@
 title: Streams
 description: Streams in Java
 header: Streams
+tags: [Java, Stream]
 ---
 
 Java 8에 추가된 가장 대표적인 기능이다. 요소를 순차적으로 처리하는 기능을 가진 클래스이다.

@@ -2,6 +2,7 @@
 title: Thread
 description: Thread
 header: Thread
+tags: [Java, Thread]
 ---
 
 ## Process

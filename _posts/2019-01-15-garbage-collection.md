@@ -2,6 +2,7 @@
 title: Garbage Collection(가비지 컬렉션)
 description: Garbage Collection
 header: Garbage Collection(가비지 컬렉션)
+tags: [Java, Garbage Collection, Garbage Collector, GC, Serial GC, CMS GC, G1]
 ---
 
 Garbage Collector가 무엇이며, 어떻게 작동하는지 알아본다.

@@ -9,5 +9,14 @@ layout: default
 		{{ content }}
 		
 	</div>
+
+	<div class="tags">
+		{% if page.tags %}
+			{% for tag in page.tags %}
+				<a href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag | downcase }}</a>
+				{% tag %}
+			{% endfor %}
+		{% endif %}
+	</div>
 </article>
 
