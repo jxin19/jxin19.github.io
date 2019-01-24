@@ -54,8 +54,8 @@
 			return vars;
 		}
 
-		console.log(getUrlVars()["searchString"]);
-		document.getElementsByClassName('search-keyword').val(getUrlVars()["searchString"]);
+		// put in the keyword from parameter of uri
+		document.getElementsByClassName('search-keyword')[0].value = getUrlVars()["q"];
 	</script>
 
 </head>
