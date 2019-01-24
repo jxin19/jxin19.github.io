@@ -1,6 +1,8 @@
 .search {
   float: right;
   margin-left: 15px !important;
+  position: relative;
+  top: -2px;
 }
 
 .search-keyword {
@@ -8,7 +10,7 @@
   border-left: none;
   border-right: none;
   border-bottom: solid thin darkgray;
-  padding: 5px;
+  padding: 3px;
   font-size: 0.9em;
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-style: normal;
