@@ -41,6 +41,8 @@ description: Resume, CV
  - 开发工具: Java8, Spring4(Boot1.5/2.0, Security, Social, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda), Elastic6.5
  - 开发了推荐产品功能基本孩子生日／性别等，爬行（Crawling）对各个产品材料， 开发了与kakao第三方插件（Third-party Plugin）。
 
+<br/>
+
 ## LF
 > LG.Fashion Co.，Ltd。成立于2006年11月1日，是LG International Co.，Ltd。新成立的公司。 Maestro，Daks，Hazzys，Lafuma，TNGT，Jill Stuart和Max Mara。 2010年7月，我们在法国成立了Lafuma和中国合资企业。2011年9月，我们在意大利成立了LGF Europe，为欧洲市场的发展奠定了基础。 我们正在通过开发海外生产商和采购面料来实施降低成本的政策。我们通过上海，巴黎，米兰和纽约的设计工作室加强设计能力和改进生产方法来提高客户满意度。
 
@@ -54,6 +56,8 @@ description: Resume, CV
  - 解决了Session Hijacking，不匹配／数据不同步，Memory Leak问题。
  - 开发了与SAP ERP连接的功能（使用JCO Library）。 
  - 介绍和转移各种软件。
+
+<br/>
 
 ## Wonder Bros
 职位名称: 创始人
@@ -72,6 +76,8 @@ description: Resume, CV
  - 开发咨询，Franchising，日程调度，HR，联机营销管理，税务日程调度，收入/支出功能，CID系统 等。
  - 开发了爬行（Crawling）对各个金融数据使用过程一部分自动化。
  - 开发了与kakao第三方插件（Third-party Plugin）连接的功能。 
+
+<br/>
 
 ## Hansoll Textile
 > 韩国领先的服装供应商。这是一家年销售额超过1.5万亿韩元（大概100亿人民币）的优质公司。 
@@ -110,6 +116,8 @@ description: Resume, CV
  - 项目时间: 2013.08 ~ 2015.01
  - 项目人员: 2
  - 开发环境：Java7, Spring3.1, JSP(JSTL), Maven, Mybatis, JQuery, MySQL, Apache, Tomcat, Windows 2008, SVN
+
+<br/>
 
 ## GY TNI
 > 软件许可证集成和基于白名单的安全管理。

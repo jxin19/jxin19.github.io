@@ -36,6 +36,8 @@ Planned will study Scale out management, Distributed processing and JVM Tuning.
  - Developed recommended product features basic child birthday/gender, crawling for each product material, developed with kakao third party plugin.
  - Reference link: https://miette.co.kr
 
+<br/>
+
 ## LF
 > LG.Fashion Co., Ltd. was incorporated on 2006 from LG International Co., Ltd., and succeeded in fashion business before the split. Maestro，Daks，Hazzys，Lafuma，TNGT，Jill Stuart and Max Mara. In July 2010, we established Lafuma and China Joint Venture in France. In September 2011, we established LGF Europe based in Italy to lay the foundations for European market development. We are implementing cost reduction policies through the development of overseas producers and sourcing of fabrics. We are enhancing customer satisfaction through strengthening design capacity and improving production method through design studios in Shanghai, Paris, Milan and New York.
 
@@ -50,6 +52,8 @@ Position: Manager
  - Solved issues that session hijacking, mismatch data, out of data sync, memory Leak.
  - Developed a connection to SAP ERP (using the JCO Library).
  - Introduce and transfer various software.
+
+<br/>
   
 ## Wonder Bros
 Position: CEO
@@ -68,6 +72,8 @@ Position: CEO
  - Developed consulting, franchising, scheduling, HR, online marketing management, tax scheduling, revenue/expense functions and CID systems.
   - Developed crawling to automate part of the process of using various financial data.
   - Developed a feature to connect to the Kakao third party plugin(Alimtalk).
+
+<br/>
 
 ## Hansoll Textile
 > Hansoll Textile Ltd. is a global textile company that manufactures and exports mainly knit apparel to the United States, Europe and Japan. We maintain active operations in Asia and Central America.
@@ -107,6 +113,8 @@ Position: Assistant Manager
  - Participants: 2
  - Development Environment：Java7, Spring3.1, JSP(JSTL), Maven, Mybatis, JQuery, MySQL, Apache, Tomcat, Windows 2008, SVN
 
+<br/>
+
 ## GY TNI
 > Software licensing integration, a leader in whitelist-based security management.
 > Consulting services such as responding to customer license compliance and audit issues, reducing TCO, and providing detection tools.
@@ -125,7 +133,6 @@ Position: Assistant Manager
  - Reduce the cost of using expensive licenses.
  - [Reference Link](http://gytni.com/new_gytni/common/files/pdf/iMON%20TOP%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
-
 ### iMON OA
  - Period: 2011.09 ~ 2012.08
  - Development Environment: Java6, Spring3, iBatis, JSP, FLEX(Action Script 3.0), Oracle 10g, Cent OS, SVN 
@@ -136,6 +143,8 @@ Position: Assistant Manager
  - Samsung Display and Seoul City Library provided savings in TCO.
  - Reduced the company's asset management staffs.
  - [Reference Link](http://gytni.com/new_gytni/common/files/pdf/iMON%20OA%20%EC%9E%A5%EB%B9%84%20%EA%B4%80%EB%A6%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
+
+<br/>
 
 ## The 53 Infantry Division of Korea(Military Service)
 
