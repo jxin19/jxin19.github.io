@@ -12,11 +12,8 @@
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   font-weight: lighter;
-}
-
-.search-button {
   background: url(/img/search.png) no-repeat;
-  border: none;
-  color: #fff;
   background-size: contain;
+  background-origin: content-box;
+  background-position: right;
 }
