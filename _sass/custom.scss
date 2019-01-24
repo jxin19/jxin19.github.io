@@ -21,6 +21,8 @@
   background-position: right;
 }
 
-.gsc-above-wrapper-area-container tbody tr, gs-snippet {
+.gsc-above-wrapper-area-container tbody tr,
+.gs-snippet,
+.gsc-table-result tbody tr {
   background: none !important;
 }
