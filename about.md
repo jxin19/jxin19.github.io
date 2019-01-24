@@ -2,6 +2,7 @@
 layout: page
 title: About
 description: Resume, CV
+sitemap: true
 ---
 
 中文 &nbsp;&nbsp; [English](http://minjoon.com/about-en)

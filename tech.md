@@ -2,6 +2,7 @@
 layout: page
 title: Tech
 description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
+sitemap: true
 ---
 
 ## Java
@@ -13,13 +14,14 @@ description: Study tech skills about JAVA, JVM, JS, Vue, ELK, AWS.
   - [Modular System - Jigsaw Project](http://minjoon.com/jigsaw-in-java)
 - [Java 10](http://minjoon.com/java10)
 - Java 11
-- [Thread](http://minjoon.com/thread-in-java)
-- [Thread Pool](http://minjoon.com/thread-pool-in-java)
-- [Lifecycle of Thread](http://minjoon.com/lifecycle-of-thread-in-java)
-- Fork/Join
-- Concurrency（并发）, Synchronized（同步）
-- Asynchronous（异步）, Future, CompletableFuture, ListenableFuture
 - [Autoboxing and Unboxing](http://minjoon.com/autoboxing-and-unboxing)
+- [Thread](http://minjoon.com/thread-in-java)
+  - [Thread Pool](http://minjoon.com/thread-pool-in-java)
+  - [Lifecycle of Thread](http://minjoon.com/lifecycle-of-thread-in-java)
+  - [Thread Safety](http://minjoon.com/thread-safety-in-java)
+- Asynchronous
+ - Future, CompletableFuture, ListenableFuture
+- Fork/Join
 
 ## Spring
 - Spring
