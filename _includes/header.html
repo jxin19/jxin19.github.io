@@ -20,7 +20,7 @@
 
 		<div id="search" class="search">
 			<form role="search" method="get" action="{{ site.baseurl }}/search/">
-				<input id="searchString" name="searchString" class="search-keyword" placeholder="Search.." type="text">
+				<input id="searchString" name="searchString" class="search-keyword" placeholder="Search.." type="text" value="{% page.url.params.searchString %}">
 			</form>
 		</div>
     </span>
