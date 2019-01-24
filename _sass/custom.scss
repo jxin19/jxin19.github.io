@@ -1,9 +1,9 @@
 .search {
   float: right;
-  margin-left: 15px;
+  margin-left: 15px !important;
 }
 
-.search > .search-keyword {
+.search-keyword {
   border-top: none;
   border-left: none;
   border-right: none;
