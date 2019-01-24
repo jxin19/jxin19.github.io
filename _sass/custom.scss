@@ -26,3 +26,18 @@
 .gsc-table-result tbody tr {
   background: none !important;
 }
+
+.tags {
+  margin: 1.33333em;
+  padding-top: 40px;
+}
+
+.post-tag {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  margin: 5px;
+  padding: 7px 14px;
+  border: solid thin darkgrey;
+  color: darkgrey;
+}
