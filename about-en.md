@@ -1,3 +1,10 @@
+---
+layout: page
+title: About
+description: Resume, CV
+sitemap: false
+---
+
 [中文](http://minjoon.com/about) &nbsp;&nbsp; English
 
 # Contact
