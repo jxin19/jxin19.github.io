@@ -18,10 +18,10 @@
       <!-- Nav links -->
 	    {% include link.html %}
 
-		<div id="search">
+		<div id="search" class="search">
 			<form role="search" method="get" action="{{ site.baseurl }}/search/">
-				<input id="searchString" name="searchString" placeholder="Input keyword." type="text">
-				<input id="searchButton" name="googleSearchName" type="submit" value="Search">
+				<input id="searchString" name="searchString" class="search-keyword" placeholder="키워드를 입력하세요." type="text">
+				<input id="searchButton" name="googleSearchName" class="search-button" type="submit" src="/img/search.png">
 			</form>
 		</div>
     </span>

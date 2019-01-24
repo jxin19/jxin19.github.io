@@ -1,3 +1,15 @@
-/*- Custom style -*/
+.search {
+  float: right;
+  margin-left: 15px;
+}
 
-// -- Put custom style under this point -- //
+.search > .search-keyword {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid thin darkgray;
+  font-size: 0.9em;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+}
