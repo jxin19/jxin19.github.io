@@ -13,7 +13,7 @@ layout: default
 	<div class="tags">
 		{% if page.tags %}
 			{% for tag in page.tags %}
-				<a href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag | downcase }}</a>
+				<a href="{{ site.baseurl }}/search/?q={{ tag }}" class="post-tag">{{ tag | downcase }}</a>
 			{% endfor %}
 		{% endif %}
 	</div>
