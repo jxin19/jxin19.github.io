@@ -17,5 +17,28 @@ layout: default
 			{% endfor %}
 		{% endif %}
 	</div>
+
+	{% if page.keywords %}
+		<div class="dic">
+			<table>
+				<thead>
+					<tr>
+						<th>En</th>
+						<th>한</th>
+						<th>中</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for keyword in page.keywords %}
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	% endif %}
 </article>
 

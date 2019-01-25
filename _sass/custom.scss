@@ -42,3 +42,17 @@
   color: darkgrey;
   line-height: 3em;
 }
+
+@media (min-width: 940px) {
+  .dic {
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    background-color: white;
+    font-size: 0.8em;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    margin: 7px;
+  }
+}

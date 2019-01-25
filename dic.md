@@ -23,6 +23,7 @@ sitemap: true
 | Asynchronous | 비동기 | 异步  |
 | Concurrency | 동시성 | 并发 |
 | Diamond | 다이아몬드 | 钻石 |
+| Interface | 인터페이스 | 接口 |
 | Multi Thread | 다중(멀티) 스레드 | 多线程 |
 | Pipeline | 파이프라인 | 流水线 |
 | Stream | 스트림 | 流 |
