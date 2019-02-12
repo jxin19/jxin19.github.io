@@ -20,8 +20,9 @@ sitemap: true
   - [Lifecycle of Thread](http://minjoon.com/lifecycle-of-thread-in-java)
   - [Thread Safety](http://minjoon.com/thread-safety-in-java)
 - Asynchronous
- - Future, CompletableFuture, ListenableFuture
-- Fork/Join
+  - [Future](http://minjoon.com/future-in-java)
+  - [CompletableFuture](http://minjoon.com/completablefuture-in-java)
+  - [Fork/Join](http://minjoon.com/fork-join-in-java)
 
 ## Spring
 - Spring
@@ -55,7 +56,7 @@ sitemap: true
 - Memory Leak Troubleshooting - http://egloos.zum.com/myepistle/v/505177
 - Memory - bottleneck
 - JVM
-- [Garbage Collection（垃圾收集器）](http://minjoon.com/garbage-collection)
+- [Garbage Collection](http://minjoon.com/garbage-collection)
 - JVM Optimization
 - JVM Tuning
 

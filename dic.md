@@ -12,9 +12,15 @@ sitemap: true
 
 | English | 한국어 | 中文 |
 | ----------- | ----------- | -----------|
+| Argument | 인수 | 实参[shícān] |
+| Code | 코드 | 打码 |
 | Feature | 특성(특징) | 特性 |
 | Underscore | 언더스코어 | 下划线 |
+| Object | 객체 | 对象 |
+| Parameter | 파라미터 | 形参[xíngcān] |
+| Prototype | 프로토타입 | 原型 |
 | Readability | 가독성 | 可读性 |
+| Recursive | 재귀/순환 | 循环[xúnhuán] |
 
 ## Java
 
