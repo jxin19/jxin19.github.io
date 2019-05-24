@@ -16,7 +16,7 @@ sitemap: true
 | Call | 호출 | 通话 |
 | Code | 코드 | 打码 |
 | Feature | 특성(특징) | 特性 |
-| Implement | 도구/수단/이행하다 |  | 
+| Implement | 도구/수단/이행하다 |  
 | Underscore | 언더스코어 | 下划线 |
 | Object | 객체 | 对象 |
 | Parameter | 파라미터 | 形参[xíngcān] |
