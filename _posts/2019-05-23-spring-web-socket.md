@@ -1,5 +1,5 @@
 ---
-title: Asynchronous - Future
+title: Web Socket
 description: Future
 header: Asynchronous - Future
 tags: [Java, Spring, WebSocket, Socket]
