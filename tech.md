@@ -35,7 +35,7 @@ sitemap: true
 - Spring AOP
 - Spring Cache
 - [Web Socket](http://minjoon.com/spring-web-socket)
-  - SockJS Fallback
+  - [SockJS Fallback](http://minjoon.com/spring-sockjs-fallback)
   - STOMP
 
 ## Spring Boot

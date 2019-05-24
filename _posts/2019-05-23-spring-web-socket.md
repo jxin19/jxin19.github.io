@@ -1,7 +1,7 @@
 ---
 title: Web Socket
 description: Future
-header: Asynchronous - Future
+header: Web Socket
 tags: [Java, Spring, WebSocket, Socket]
 keywords: 
     - en: Full-duplex
@@ -78,6 +78,8 @@ HTTP와 REST에서 많은 어플리케이션은 많은 URL로 모델링된다. �
 
 HTTP 핸드쉐이크(handshake) 요청의 'Sec-WebSocket-Protocol' 헤더를 통해 웹소켓 클라이언트와 서버는 높은 단계의 사용, 메시징 프로토콜(e.g. STOMP)를 사용을 협상할 수 있다.
 
+<br/>
+
 #### 언제 사용하는가?
 
 웹소켓은 동적이고 상호작용적인 웹 페이지를 만들 수 있다. 하지만 Ajax와 HTTP 스트리밍(streaming) 또는 긴 폴링(long polling) 등의 복합적인 사례는 간단하고 효과적인 방법을 제공한다.
@@ -87,10 +89,13 @@ HTTP 핸드쉐이크(handshake) 요청의 'Sec-WebSocket-Protocol' 헤더를 통
 대기시간만으로는 결정적인 요인이 아니다. 만약 메시지양이 적은 경우(e.g. 네트워크 오류 모니터링) HTTP 스트리밍 또는 폴링이 효과적인 방법이 될 수 있다.
 짧은 대기시간, 매우 빈번하고 많은 양의 전송일 경우, 웹소켓을 사용하는 것이 가장 좋다.
 
+<br/>
 
 ## WebSocket API
 
 스프링 프레임워크는 웹소켓 메시지를 처리하는 클라이언트와 서버 쪽(side) 어플리케이션을 작성하는데 사용할 수 있는 웹소켓API를 제공한다.
+
+<br/>
 
 #### WebSocketHandler
 
@@ -155,6 +160,8 @@ public class WebSocketConfig implements WebSocketConfigurer {
 위 내용은 Spring MVC 어플리케이션과 DispatcherServlet의 설정이 포함되어야 한다. 하지만 스프링의 웹소켓은 Spring MVC를 의존하지 않는다.
 이는 비교적 간단히 WebSocketHandler를 사용하여 WebSocketHandler를 다른 HTTP 제공 환경에 통합하는 것이다.
 
+<br/>
+
 #### WebSocket Handshake
 
 최초 HTTP 웹소켓 핸드쉐이크(handshake) 요청을 가장 쉽게 사용자 정의하는 것은 핸드쉐이크 메소드의 "before"와 "after"를 노출하는 HandshakeInterceptor를 사용하는 것이다. 
@@ -205,6 +212,7 @@ Java-config, XML 네임스페이스 모두 사용자정의 `HandshakeHandler`를
 > 로그와 예외처리는 웹소켓 Java-config나 XML 네임스페이스를 기본적으로 사용할 때 제공하고 추가한다.
 > `ExceptionWebSocketHandlerDecorator`는 모든 `WebSocketHandler` 메소드에서 발생하는 확인되지 않는 예외를 포착하고서버 오류를 나타내는 상태 1011로 웹소켓 세션을 닫는다.
 
+<br/>
 
 #### Deployment
 
@@ -257,6 +265,8 @@ Web Fragments 이름 설정을 선택적으로 할 수 있다. 스프링의 `Spr
 </web-app>
 ```
 
+<br/>
+
 #### Server Config
 
 근본적으로 웹소켓 엔진은 설정 프로퍼티를 노출시킨다. 컨트롤 런타임 특징은 대략 메시지 버퍼 크기, idle timeout 크기 등이 있다.
@@ -304,6 +314,8 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
 }
 ```
+
+<br/>
 
 #### Allowed Origins
 
