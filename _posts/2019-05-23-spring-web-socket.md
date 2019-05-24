@@ -341,3 +341,6 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
 }
 ```
+
+> 참고<br/>
+> https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-reference/web.html
