@@ -65,6 +65,8 @@ Sec-WebSocket-Protocol: v10.stomp
 참고로 웹소켓 서버가는 웹서버(e.g. nginx) 뒤에서 동작한다. 웹소켓 서버에 웹소켓 업그레이드 요청을 전달하도록 구성해야 할 수도 있다.
 마찬가지로 어플리케이션이 클라우드 환경에서 실행되면 웹소켓 지원과 관련된 내용을 확인해야 한다.
 
+<br/>
+
 #### HTTP vs WebSocket
 
 웹소켓은 HTTP과 호환되도록 설계되었고 HTTP요청으로 시작할수 있지만, 두 프로토콜(HTTP, 웹소켓)이 다른 아키텍쳐와 어플리케이션 프로그래밍 모델이라는 것을 이해하는 것이 중요하다.
@@ -353,6 +355,8 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
 }
 ```
+
+<br/>
 
 > 참고<br/>
 > https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-reference/web.html
