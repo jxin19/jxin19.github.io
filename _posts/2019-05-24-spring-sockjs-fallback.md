@@ -4,9 +4,12 @@ description: SockJS Fallback -  Web Socket
 header: SockJS Fallback -  Web Socket
 tags: [Java, Spring, WebSocket, Socket, SockJS]
 keywords: 
-    - en: Full-duplex
-      ko: 전이중
-      cn: 全双工
+    - en: Protocol
+      ko: 규약/프로토콜
+      cn: 协议[xiéyì]
+    - en: Interaction
+      ko: 상호작용
+      cn: 相互作用
 ---
 
 공용 인터넷을 통해 통제할 수 없는 제한된 프록시는 업그레이드 헤더를 설정으로 전달하지 않거나 유휴 상태로 보일만큼 오래 지속된 연결을 단기 때문에 웹소켓의 상호작용을 방해할 수 있다.  
@@ -50,6 +53,8 @@ http://host:port/myApp/myEndpoint/{server-id}/{session-id}/{transport}
  - {server-id} - 클러스터에서 라우팅 요청에 유용하지만 그렇지 않으면 사용되지 않음.
  - {session-id} - SockJS 세션에 속하는 HTTP 요청의 상관 관계.
  - {transport} - 전송 유형을 나타냄. (e.g. "websocket", "xhr-streaming")
+
+<br/>
 
 웹소켓 전송은 오직 단일 HTTP 요청으로 웹소켓 핸드쉐이크를 실행하는데 필요하다. 모든 메시지 전송은 소켓으로 전환된다.
 
