@@ -84,8 +84,6 @@ SockJS 클라이언트는 브라우저 콘솔의 유용한 메시지 사용할 �
 서버쪽에서 org.springframework.web.socket 의 TRACE 로깅 사용가능하다.
 자세한 내용은 SockJS narrated 테스트에서 확인하자.
 
-<br/>
-
 ## Enable SockJS
 
 SockJS는 JAVA 설정을 매우 쉽게할 수 있다.
@@ -118,8 +116,6 @@ On the browser side, applications can use the sockjs-client (version 1.0.x) that
 Review the sockjs-client page and the list of transport types supported by browser. 
 The client also provides several configuration options, for example, to specify which transports to include.
 
-<br/>
-
 ## Heartbeats
 
 SockJS 프로토콜은 프록시가 중단되는 것을 막기위해 서버가 Heartbeat 메시지를 전송하는데 요구한다.
@@ -132,8 +128,6 @@ SockJS 프로토콜은 프록시가 중단되는 것을 막기위해 서버가 H
 스프링 SockJS 지원을 통해 `TaskScheduler`가 heartbeats 작업을 스케줄링하는데 사용할 수 있도록 한다.
 작업 스케줄러는 사용가능한 프로세서의 수를 기반으로 기본 설정을 한 스레드 풀(Thread Pool)에 의해 지원된다.
 어플리케이션은 특정 요구에 따라 설졍하는 커스터마이징을 고려해야 한다.
-
-<br/>
 
 ## Client disconnects
 
@@ -153,8 +147,6 @@ that means a client disconnect is usually detected within that time period or ea
 > 결과로는 네트워크 입출력 실패는 클라이언트의 연결종료로 단순히 발생할 수있으며, 불필요한 스택로그가 쌓일 수 있다. 
 > Spring은 (각 서버마다 특정) 클라이언트 연결을 끊는 네트워크 장애를 식별하고 `AbstractSockJsSession`에 정의된 전용 로그 범주 `DISCONNECTED_CLIENT_LOG_CATEGORY`를 사용하여 최소 메시지를 기록하기 위해 최선의 노력을 기울인다.
 > 스택 추적을 봐야 한다면 TRACE 로그 카테고리를 참조하자.
-
-<br/>
 
 ## SockJS and CORS
 
@@ -183,8 +175,6 @@ SockJS가 예상하는 헤더와 값 목록:
 <br/>
 
 또는 CORS 구성에서 SockJS 끝점 접두어가있는 URL을 제외하도록 고려하면 Spring의 SockJsService가 처리하도록 허용 할 수 있다.
-
-<br/>
 
 ## SockJS Client
 
