@@ -14,7 +14,11 @@ keywords:
 
 공용 인터넷을 통해 통제할 수 없는 제한된 프록시는 업그레이드 헤더를 설정으로 전달하지 않거나 유휴 상태로 보일만큼 오래 지속된 연결을 단기 때문에 웹소켓의 상호작용을 방해할 수 있다.  
 
+<br/>
+
 해결 방법으로는 웹소켓 에뮬레이션. 즉, 웹소켓을 먼저 사용하고 웹소켓 상호작용을 에뮬레이션 하는 것과 동일한 어플리케이션 레벨의 API를 노출 하는 HTTP 기반 기술을 되돌리려 시도한다.
+
+<br/>
 
 스프링 프레임워크의 서블릿 스택은 SockJS 프로토콜을 위한 서버(클라이언트) 모두를 지원한다. 
 
@@ -40,9 +44,13 @@ SockJS 전송유형과 브라우저의 전체 목록은 [SockJS 클라이언트 
 3가지 일반적인 전송실패를 구분하면 WebSocket, HTTP Streaming, and HTTP Long Polling.
 전체 내용에 대한 내용은 [블로그](https://spring.io/blog/2012/05/08/spring-mvc-3-2-preview-techniques-for-real-time-updates/)에서 볼 수 있다.
 
+<br/>
+
 SockJS 클라이언트는 "GET /info" 정보를 전송하여 서버에서 기본 정보를 받는다. 
 그리고, 어떤 전송 수단을 사용할지 선택해야 한다. 
 가능한 웹소켓을 사용하고, 그렇지 않으면 대부분의 브라우저에는 최소 하나의 HTTP 스트리밍 옵션이 있거나 HTTP (긴) 폴링을 사용한다.
+
+<br/>
 
 모든 전송요청은 URL 구조를 따른다:
 
@@ -58,11 +66,17 @@ http://host:port/myApp/myEndpoint/{server-id}/{session-id}/{transport}
 
 웹소켓 전송은 오직 단일 HTTP 요청으로 웹소켓 핸드쉐이크를 실행하는데 필요하다. 모든 메시지 전송은 소켓으로 전환된다.
 
+<br/>
+
 HTTP 전송은 더 많은 요청이 필요하다. 예를 들어 Ajax/XHR 스트리밍은 서버/클라이언트간 메시지의 장시간 요청과 서버/클라이언트간 메시지에 대한 추가적인 HTTP Post 요청에 의존한다.
 긴 폴링은 서버/클라이언트 간 각각의 전송 후 현재 요청이 종료되는 점을 제외하면 비슷한다.
 
+<br/>
+
 SockJS는 최소한의 메시지 프레임을 추가한다.
 예를 들어, 서버에서 첫 문자 o ("open" frame) 만 전송하고, 메시지는 "message1","message2"(JSON 인코딩된 배열), 기본적으로 25초 동안 메시지가 없으면 h ("heartbeat" frame) 문자를 보여주고, 세션이 닫히면 c ("close" frame) 문자를 보여준다.
+
+<br/>
 
 자세한 내용을 보려면 브라우저에서 HTTP 요청을 하고 확인해야 한다.
 SockJS 클라이언트는 전송 목록 수정을 허용하므로, 매 전송을 한 번에 하나씩 볼 수 있다.
@@ -125,7 +139,11 @@ SockJS 프로토콜은 프록시가 중단되는 것을 막기위해 서버가 H
 
 HTTP 스트리밍과 HTTP 긴 폴링 SockJS 전송은 사용가능한게 하나라도 연결되어 있어야 한다. 자세한 내용은 [블로그 참조](https://spring.io/blog/2012/05/08/spring-mvc-3-2-preview-techniques-for-real-time-updates/)
 
+<br/>
+
 서블릿 컨테이너안에서 완료되도록 서블릿3 비동기 지원한다. 요청을 처리하는 서블릿 컨테이너 스레드를 종료할 수 있고, 다른 스레드로부터의 응답에 계속 쓰는 것을 허용한다. 
+
+<br/>
 
 특정 문제는 서블릿 API가 사라진 클라이언트에 대한 알림을 제공하지 않는다는 것이다.(`SERVLET_SPEC-44` 참조)
 하지만 서블릿 컨테이너는 이후에 응답을 쓰려고 시도할 때 예외가 발생한다.
@@ -144,7 +162,11 @@ that means a client disconnect is usually detected within that time period or ea
 따라서 반응에 CORS 헤더가 없는 경우 CORS 헤더가 자동으로 추가된다.
 어플레케이션이 이미 CORS 지원을 제공하도록 구성된 경우, 서블릿 필터를 통해 스프링 `SockJsService` 부분을 건너뛸 것이다.
 
+<br/>
+
 스프링의 SockJsService에서 `suppressCors` 속성을 통해 이러한 CORS 헤더의 추가를 비활성화할 수도 있다.
+
+<br/>
 
 SockJS가 예상하는 헤더와 값 목록:
 
@@ -158,6 +180,8 @@ SockJS가 예상하는 헤더와 값 목록:
 
 정확한 구현을 위해 `AbstractSockJsService`의 `addCorsHeaders`와 소스 코드의 `TransportType` enum을 참조하자.
 
+<br/>
+
 또는 CORS 구성에서 SockJS 끝점 접두어가있는 URL을 제외하도록 고려하면 Spring의 SockJsService가 처리하도록 허용 할 수 있다.
 
 <br/>
@@ -167,6 +191,8 @@ SockJS가 예상하는 헤더와 값 목록:
 브라우저를 사용하지 않고 SockJS 엔드포인트를 원격으로 연결하기 위해 SockJS 자바 클라이언트를 제공한다.
 이는 양방향 통신간 2개 서버 이상일 때, 네트워크 프록시에서 웹소켓 프로토골의 사용을 방해할 수 있는 경우 매우 유용하다.
 SockJS 자바 클라이언트는 많은 수의 동시 사용자를 시뮬레이션 하는 경우 매우 유용하다.  
+
+<br/>
 
 SockJS 자바 클라이언트는 "websocket", "xhr-streaming", "xhr-polling" 전송을 지원한다. 나머지 것들은 브라우저에서만 사용할 수 있다. 
 
