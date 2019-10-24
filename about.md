@@ -37,10 +37,14 @@ sitemap: true
 
 以后学习 Scale out, Distributed processing, JVM Tuning 等。
 
-### 宝宝儿童服装／用品介绍网上平台
- - 项目时间: 2018.03 ~ 到今
- - 开发工具: Java8, Spring4(Boot1.5/2.0, Security, Social, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda), Elastic6.5
+### 宝宝儿童服装用品介绍网上平台
+ - 项目时间: 2018.03 ~ 2019.01
+ - 开发工具: Java8, Spring4(Boot1.5/2.0, Security, Social, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda, ElasticCache(Redis)), Elastic6.5
  - 开发了推荐产品功能基本孩子生日／性别等，爬行（Crawling）对各个产品材料， 开发了与kakao第三方插件（Third-party Plugin）。
+
+### 提高Instagram粉丝/分析软件
+ - 项目时间： 2019.03 ~ 到今
+ - 开发工具： Java10, Spring(Boot2.1, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ALB/ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda, ElasticCache(Redis))
 
 <br/>
 
@@ -52,7 +56,7 @@ sitemap: true
 ### LF Mall/LF Members 电商开发
  - 项目时间: 2017.02 ~ 到今
  - 项目人员: 50+
- - 开发工具: Java7, Spring3.2, JSP(JSTL), Maven, MyBatis, Thymeleaf, Jquery, Oracle 11g, Tomcat, Apache, Linux, Git
+ - 开发工具: Java7, Spring3.2, JSP(JSTL), Maven, MyBatis, Thymeleaf, Jquery, Oracle 11g, MySQL, Redis, Tomcat, Apache, Linux, Git
  - 负责网上／线下会员部分，并开发LF会员网站了。使用一千万以上的会员联机服务在一年以上没有问题。 
  - 解决了Session Hijacking，不匹配／数据不同步，Memory Leak问题。
  - 开发了与SAP ERP连接的功能（使用JCO Library）。 
@@ -169,8 +173,8 @@ sitemap: true
 # 技能清单
 以下均为我熟练使用的技能
 
- - Web开发: Java6,7,8 / PHP 5,7 / node
- - Web框架: Spring 3,4 / SpringBoot 1.5, 2.0 / Codeigniter3
+ - Web开发: Java6,7,8,10 / PHP 5,7 / node
+ - Web框架: Spring 3,4,5 / SpringBoot 1.5, 2.1 / Codeigniter3
  - 前端框架: vue.js 2 / Bootstrap3,4 / Thymeleaf / JSP,JSTL / HTML5 / JQuery
  - 前端工具: Webpack / Sass
  - 数据库相关: MySQL(MariaDB) / Oracle / iBatis,MyBatis / Hibernate5 / JPA2 / QueryDSL

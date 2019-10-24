@@ -1,8 +1,8 @@
 ---
-layout: sub-page
+layout: page
 title: About
 description: Resume, CV
-sitemap: true
+sitemap: false
 ---
 
 [中文](http://minjoon.com/about) &nbsp;&nbsp; English
@@ -38,10 +38,15 @@ Studied Spring boot, vue js, AWS, ELK stack for personal development.
 Planned will study Scale out management, Distributed processing and JVM Tuning.
 
 ### A Clothing & Accessories Online Shopping Platform by metadata
- - Period: 2018.03 ~
+ - Period: 2018.03 ~ 2019.01
  - Development Environment: Java8, Spring4(Boot1.5/2.0, Security, Social, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda), Elastic6.5
  - Developed recommended product features basic child birthday/gender, crawling for each product material, developed with kakao third party plugin.
  - Reference link: https://miette.co.kr
+
+### 提高Instagram粉丝/分析软件
+ - Period： 2019.03 ~ 
+ - Development Environment: Java10, Spring(Boot2.1, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ALB/ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda, ElasticCache(Redis))
+
 
 <br/>
 
@@ -172,8 +177,8 @@ Position: Assistant Manager
 
 # Technical Skills
 
- - Language: Java6,7,8 / PHP 5,7 / node
- - Framework: Spring 3,4 / SpringBoot 1.5, 2.0 / Codeigniter3
+ - Language: Java6,7,8,10 / PHP 5,7 / node
+ - Framework: Spring 3,4,5 / SpringBoot 1.5, 2.1 / Codeigniter3
  - F/E Framework: vue.js 2 / Bootstrap3,4 / Thymeleaf / JSP,JSTL / HTML5 / JQuery
  - F/E tool: Webpack / Sass
  - Database: MySQL(MariaDB) / Oracle / iBatis,MyBatis / Hibernate5 / JPA2 / QueryDSL
@@ -191,4 +196,4 @@ In the meantime, I tried to make beautiful code beyond the clean code. It's a sh
 
 In order to achieve these goals, I will constantly change and make use of related technologies such as Java / Spring and make full use of them. I hope that it will be useful for the development of technology learning such as AWS (IaC), ELK Stack, and Blockchain (Dapp) that I was interested in everyday.
 
-In 2011-2012, I have been engaged in international trade for Chinese clothing wholesalers and naturally came to Chinese culture. I met over 100 friends in China. I have been studying Chinese for over 30 minutes every day with this kind of relationship with China.
+In 2011-2012, I have been engaged in international trade for Chinese clothing wholesalers and naturally came to Chinese culture. I met 100 friends over in China. I have been studying Chinese for over 30 minutes every day with this kind of relationship with China.
