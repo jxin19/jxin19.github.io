@@ -43,7 +43,7 @@ Planned will study Scale out management, Distributed processing and JVM Tuning.
  - Developed recommended product features basic child birthday/gender, crawling for each product material, developed with kakao third party plugin.
  - Reference link: https://miette.co.kr
 
-### 提高Instagram粉丝/分析软件
+### Instagram Bot Program
  - Period： 2019.03 ~ 
  - Development Environment: Java10, Spring(Boot2.1, Data), Hibernate5/JPA2, QueryDSL4, Gradle3, vue.js2, ES6, webpack, node, html5, css3/sass, Jenkins, Git, Nested Tomcat, AWS/Terraform(IAM, ACM, EC2, ALB/ELB, RDS, S3, Route53, Code Deploy, Cloud Front, ACM, Lambda, ElasticCache(Redis))
 
